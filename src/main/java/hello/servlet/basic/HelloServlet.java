@@ -9,10 +9,9 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(name = "helloServlet", urlPatterns = "/hello")
-public class HelloSevlet extends HttpServlet {
+public class HelloServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         System.out.println("service");
     }
 }
